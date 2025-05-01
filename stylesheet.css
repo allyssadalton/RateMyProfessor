@@ -1,0 +1,238 @@
+h1 {
+    text-align: center;
+}
+
+.Menu {
+    width: 100%;                 
+    margin: 0 auto;            
+    text-align: center;  
+}
+.Menu form {
+    margin-top: auto;   /* Pushes the logout button to the bottom of the container */
+    text-align: center; /* Centers the logout button */
+}
+
+.signlogContainer{
+    display: flex; 
+    padding: 0 20px;           /* Use flexbox for the parent container */
+    justify-content: space-between;
+    min-height: 80vh;
+    background-color: #f5f5f5;
+}
+
+.SignupSide{
+    background-color: beige;
+    min-height: 80vh;      
+    display: flex;              /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 48%;
+    border: 4mm ridge rgba(255, 66, 66, 0.6);/*https://developer.mozilla.org/en-US/docs/Web/CSS/border*/
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+.LoginSide{
+    background-color: beige;
+    min-height: 80vh;    
+    display: flex;                     /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 48%;
+    border: 4mm ridge rgba(255, 66, 66, 0.6); /*https://developer.mozilla.org/en-US/docs/Web/CSS/border*/
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.errormessage{
+    text-align: center;
+}
+
+.professor{
+    text-align: center;
+}
+
+
+.professor h3{
+    clear: both;
+}
+
+button{
+    cursor: pointer;
+}
+
+.leaveReviewInfo{
+    text-align: center;
+}
+
+.reviewsContainer{
+    display: flex; 
+    padding:  0 20px;           /* Use flexbox for the parent container */
+    justify-content: space-between;
+    min-height: 60vh;
+    max-height: 400vh;
+    background-color: #f5f5f5;
+}
+
+.showReviews{
+    display: flex;                     /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.showReviews p{
+    text-align: left;
+}
+.showReviews form{
+    text-align: right;
+}
+
+.leaveAReview{
+    position: fixed;               /* Fixes the position on the screen */
+    bottom: 15vh;                  /* Position it near the bottom of the screen */
+    right: 20px;
+    display: flex;                     /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 12%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+
+/*Deepseek did all of the SearchRatings CSS for me*/
+.SearchRatings {
+    width: 100%;
+    max-width: 800px; /* Adjust this as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.SearchRatings form {
+    display: flex;
+    gap: 10px; /* Space between elements */
+    width: 100%;
+}
+
+.SearchRatings input[type="search"] {
+    flex: 1; /* Takes up remaining space */
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.SearchRatings select {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px; /* Minimum width for dropdown */
+}
+
+.SearchRatings button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: rgb(186, 174, 174);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.SearchRatings button:hover {
+    background-color: rgb(168, 156, 156); /* Darker green on hover */
+}
+
+.browseReviewsPage{
+    display: flex; 
+    padding:  0 20px;           /* Use flexbox for the parent container */
+    justify-content: space-between;
+    min-height: 60vh;
+    max-height: 400vh;
+    background-color: #f5f5f5;
+}
+.ShowsProfessors{
+    display: flex;                     /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 20px;
+}
+.ShowsDepartments{
+    display: flex;                     /* Enables flexbox layout */
+    flex-direction: column;     /* Stacks the children vertically */
+    justify-content: center;  
+    text-align: center;
+    width: 30%;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+/* Deepseek did all the addFacultyMember css */
+.addFacultyMember {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.addFacultyMember form {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.addFacultyMember select {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+    flex: 1;
+}
+
+.addFacultyMember input[type="text"] {
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+/* Add this to your existing styles */
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.addFacultyMember button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: rgb(186, 174, 174);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Remove any existing margin or width properties */
+}
+
+.addFacultyMember button:hover {
+    background-color: rgb(168, 156, 156);
+}

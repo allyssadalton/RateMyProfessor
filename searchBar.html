@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+<div class="SearchRatings">
+	<form action="<?php echo $_SERVER['PHP_SELF']; ?>"> <!-- I got the code for this form from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search -->
+		<label></label><input type="search" placeholder="Search for..." name="SearchRatings"/>
+		<label for="options"></label>
+		<select id="options" name="SearchType">
+			<option value="searchProfessors">Professors</option>
+			<option value="searchDepartments">Departments</option>
+		</select>
+		<button>Search</button>
+	</form>
+</div>
+</body>
+</html>
